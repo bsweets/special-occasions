@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="special_occasion" table="x_126321_spec_occ_occasion" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>special_occasion</element>
+            <name>x_126321_spec_occ_occasion</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-08-12 16:02:03</sys_created_on>
+            <sys_id>a76e88b31bf1b01068dd5464604bcb54</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>special_occasion</sys_name>
+            <sys_package display_value="Special Occasions" source="x_126321_spec_occ">0a8c0c331bf1b01068dd5464604bcbb1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Special Occasions">0a8c0c331bf1b01068dd5464604bcbb1</sys_scope>
+            <sys_update_name>sys_choice_x_126321_spec_occ_occasion_special_occasion</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-08-12 16:02:03</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>special_occasion</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Birthday</label>
+            <language>en</language>
+            <name>x_126321_spec_occ_occasion</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-08-12 16:02:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2b6e88b31bf1b01068dd5464604bcb53</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-08-12 16:02:03</sys_updated_on>
+            <value>birthday</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>special_occasion</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Work Anniversary</label>
+            <language>en</language>
+            <name>x_126321_spec_occ_occasion</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-08-12 16:02:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e76e88b31bf1b01068dd5464604bcb57</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-08-12 16:02:04</sys_updated_on>
+            <value>work_anniversary</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
