@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "page_title",
+  "elementLabel" : "Page Title",
+  "propertyValues" : {
+    "text" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "message" : "Special Occasions",
+        "comment" : ""
+      }
+    },
+    "tag" : {
+      "type" : "JSON_LITERAL",
+      "value" : "h1"
+    },
+    "css" : {
+      "type" : "JSON_LITERAL",
+      "value" : "* { }"
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : "Header",
+  "definition" : {
+    "id" : "4335ba6dca80378f7ba7a67cd6667bec",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : { }
+}, {
+  "elementId" : "birthdays_this_week",
+  "elementLabel" : "Birthdays this week",
+  "propertyValues" : {
+    "label" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "message" : "Birthdays this week",
+        "comment" : ""
+      }
+    },
+    "chartType" : {
+      "type" : "JSON_LITERAL",
+      "value" : "single_score"
+    },
+    "dataConfigurations" : {
+      "type" : "JSON_LITERAL",
+      "value" : "[{\"__viz_config_id\":\"dGFibGV4XzEyNjMyMV9zcGVjX29jY19vY2Nhc2lvbjE2Mjg3ODgyNjU0NDQ=\",\"__viz_config_label\":\"Occasion\",\"aggregate_function\":\"COUNT\",\"filter_query\":\"special_occasion=birthday\",\"display_zero\":true,\"source_type\":\"table\",\"source_id\":\"x_126321_spec_occ_occasion\"}]"
+    },
+    "styleConfigurations" : {
+      "type" : "JSON_LITERAL",
+      "value" : "{\"width\":\"auto\",\"height\":\"auto\",\"showDataLabels\":false,\"seriesConfig\":{\"data_0_0\":{\"enableAbbreviation\":false}},\"dataLabelConfig\":{\"align\":\"middle\",\"collisions\":\"hide\",\"stacked\":\"individual\",\"valueType\":\"both\"}}"
+    },
+    "isRealtime" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "showRealtimeIndicator" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "variant" : {
+      "type" : "JSON_LITERAL",
+      "value" : "auto"
+    },
+    "border" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "refreshInterval" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "kpiDetailsNavigation" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "followFilters" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "hideFiltersInfo" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "filterConfigurations" : {
+      "type" : "STATE_BINDING",
+      "binding" : {
+        "address" : [ "parFilters" ]
+      }
+    },
+    "hideHeader" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "refreshFrequency" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : "Main",
+  "definition" : {
+    "id" : "67cf18a377c70010cb834a2a6910619a",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : { }
+}, {
+  "elementId" : "work_anniversaries_this_week",
+  "elementLabel" : "Work anniversaries this week",
+  "propertyValues" : {
+    "label" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "message" : "Work anniversaries this week",
+        "comment" : ""
+      }
+    },
+    "chartType" : {
+      "type" : "JSON_LITERAL",
+      "value" : "single_score"
+    },
+    "dataConfigurations" : {
+      "type" : "JSON_LITERAL",
+      "value" : "[{\"__viz_config_id\":\"dGFibGV4XzEyNjMyMV9zcGVjX29jY19vY2Nhc2lvbjE2Mjg3ODgzODczMDQ=\",\"__viz_config_label\":\"Occasion\",\"aggregate_function\":\"COUNT\",\"filter_query\":\"special_occasion=work_anniversary^occasion_date&lt;javascript:gs.dateGenerate('2014-01-01','00:00:00')\",\"display_zero\":true,\"source_type\":\"table\",\"source_id\":\"x_126321_spec_occ_occasion\"}]"
+    },
+    "styleConfigurations" : {
+      "type" : "JSON_LITERAL",
+      "value" : "{\"width\":\"auto\",\"height\":\"auto\",\"showDataLabels\":false,\"seriesConfig\":{\"data_0_0\":{\"enableAbbreviation\":false}},\"dataLabelConfig\":{\"align\":\"middle\",\"collisions\":\"hide\",\"stacked\":\"individual\",\"valueType\":\"both\"}}"
+    },
+    "isRealtime" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "showRealtimeIndicator" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "variant" : {
+      "type" : "JSON_LITERAL",
+      "value" : "auto"
+    },
+    "border" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "refreshInterval" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "kpiDetailsNavigation" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "followFilters" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "hideFiltersInfo" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "filterConfigurations" : {
+      "type" : "STATE_BINDING",
+      "binding" : {
+        "address" : [ "parFilters" ]
+      }
+    },
+    "hideHeader" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "refreshFrequency" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : "Main",
+  "definition" : {
+    "id" : "67cf18a377c70010cb834a2a6910619a",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : { }
+} ]</composition>
+        <da_relay_models/>
+        <data>[ ]</data>
+        <dispatched_events/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{ }</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "items" : [{"slotName":"Header","rules":{"flex-basis":"50px","margin-bottom":"1rem"},"styles":{"display":"flex","flex-direction":"column","align-items":"center","background-color":"lightblue"}},{"slotName":"Main","rules":{"flex-basis":"400px","flex":"1"},"styles":{"display":"flex","flex-direction":"row","padding":"10px","justify-content":"space-between"}}],
+    "root" : null,
+    "rules" : {"flex-flow":"column nowrap","min-height":"400px","height":"100%"},
+    "styles" : null,
+    "templateId" : "3b7ced8953c31010e6bcddeeff7b12ef",
+    "type" : "flex"
+  }
+}</layout>
+        <macroponent_dependencies/>
+        <name>Home</name>
+        <props>[ ]</props>
+        <required_translations>[ {
+  "message" : "Birthdays this week",
+  "comment" : ""
+}, {
+  "message" : "Special Occasions",
+  "comment" : ""
+}, {
+  "message" : "Work anniversaries this week",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-12 19:27:15</sys_created_on>
+        <sys_id>116d78f71b75b01068dd5464604bcb6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Home</sys_name>
+        <sys_package display_value="Special Occasions" source="x_126321_spec_occ">0a8c0c331bf1b01068dd5464604bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Special Occasions">0a8c0c331bf1b01068dd5464604bcbb1</sys_scope>
+        <sys_update_name>sys_ux_macroponent_116d78f71b75b01068dd5464604bcb6e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-12 19:27:15</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>

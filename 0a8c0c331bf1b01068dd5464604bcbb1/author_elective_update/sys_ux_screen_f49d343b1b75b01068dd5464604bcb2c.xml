@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="DELETE">
+        <active>true</active>
+        <app_config display_value="Special Occasions config">5dd758bb1bf1b01068dd5464604bcb0f</app_config>
+        <description/>
+        <event_mappings/>
+        <macroponent display_value="Admin variant">bc9d343b1b75b01068dd5464604bcb29</macroponent>
+        <macroponent_config/>
+        <name>Admin variant</name>
+        <order>300</order>
+        <parent_macroponent display_value="UXR Blank AppShell">fee17a0f5b130010b913cbd59b81c7c2</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <screen_condition/>
+        <screen_type display_value="Home">7f8ad4bb1bf1b01068dd5464604bcbee</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-12 19:28:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f49d343b1b75b01068dd5464604bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Admin variant</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Special Occasions" source="x_126321_spec_occ">0a8c0c331bf1b01068dd5464604bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Special Occasions">0a8c0c331bf1b01068dd5464604bcbb1</sys_scope>
+        <sys_update_name>sys_ux_screen_f49d343b1b75b01068dd5464604bcb2c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-12 19:28:02</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="DELETE" query="documentkey=f49d343b1b75b01068dd5464604bcb2c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Special Occasions">0a8c0c331bf1b01068dd5464604bcbb1</application>
+        <file_path/>
+        <instance_id>7d4a13ccdb572890e26fd7c8f4961916</instance_id>
+        <instance_name>dev109150</instance_name>
+        <name>sys_ux_screen_f49d343b1b75b01068dd5464604bcb2c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen"><sys_ux_screen action="INSERT_OR_UPDATE"><active>true</active><app_config display_value="Special Occasions config">5dd758bb1bf1b01068dd5464604bcb0f</app_config><description/><event_mappings/><macroponent display_value="Admin variant">bc9d343b1b75b01068dd5464604bcb29</macroponent><macroponent_config/><name>Admin variant</name><order>300</order><parent_macroponent display_value="UXR Blank AppShell">fee17a0f5b130010b913cbd59b81c7c2</parent_macroponent><required_translations>[ ]</required_translations><screen_condition/><screen_type display_value="Home">7f8ad4bb1bf1b01068dd5464604bcbee</screen_type><sys_class_name>sys_ux_screen</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-12 19:28:02</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f49d343b1b75b01068dd5464604bcb2c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Admin variant</sys_name><sys_overrides/><sys_package display_value="Special Occasions" source="x_126321_spec_occ">0a8c0c331bf1b01068dd5464604bcbb1</sys_package><sys_policy/><sys_scope display_value="Special Occasions">0a8c0c331bf1b01068dd5464604bcbb1</sys_scope><sys_update_name>sys_ux_screen_f49d343b1b75b01068dd5464604bcb2c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-12 19:28:02</sys_updated_on></sys_ux_screen><sys_translated_text action="delete_multiple" query="documentkey=f49d343b1b75b01068dd5464604bcb2c"/></record_update>]]></payload>
+        <payload_hash>-857228232</payload_hash>
+        <record_name>Admin variant</record_name>
+        <reverted_from/>
+        <source>81c5903b1bf1b01068dd5464604bcb7c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-12 19:28:02</sys_created_on>
+        <sys_id>749db43b1b75b01068dd5464604bcbce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17b3bd5f4290000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-12 19:28:02</sys_updated_on>
+        <type>UX Screen</type>
+        <update_guid>bc9db43b2a75b010a35331e71dbd97cd</update_guid>
+        <update_guid_history>bc9db43b2a75b010a35331e71dbd97cd:-857228232</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-12 19:28:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen">sys_ux_screen</sys_db_object>
+        <sys_id>df911f9d50284ffc8c08601e7a9732a4</sys_id>
+        <sys_metadata>f49d343b1b75b01068dd5464604bcb2c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Admin variant</sys_name>
+        <sys_package display_value="Special Occasions" source="x_126321_spec_occ">0a8c0c331bf1b01068dd5464604bcbb1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Special Occasions">0a8c0c331bf1b01068dd5464604bcbb1</sys_scope>
+        <sys_scope_delete display_value="">b73069da1c2b4bad89ea19ec3429efe1</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_f49d343b1b75b01068dd5464604bcb2c</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_f49d343b1b75b01068dd5464604bcb2c">749db43b1b75b01068dd5464604bcbce</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-12 19:28:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

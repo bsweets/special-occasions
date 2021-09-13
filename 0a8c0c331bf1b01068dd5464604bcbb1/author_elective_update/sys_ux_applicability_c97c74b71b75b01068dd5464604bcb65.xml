@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="DELETE">
+        <active>true</active>
+        <api_name>x_126321_spec_occ.Special Occasion User</api_name>
+        <description>Audience of Special Occasion application users</description>
+        <name>Special Occasion User</name>
+        <roles name="x_126321_spec_occ.user">301fc0f31bf1b01068dd5464604bcbee</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-12 19:23:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c97c74b71b75b01068dd5464604bcb65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Special Occasion User</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Special Occasions" source="x_126321_spec_occ">0a8c0c331bf1b01068dd5464604bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Special Occasions">0a8c0c331bf1b01068dd5464604bcbb1</sys_scope>
+        <sys_update_name>sys_ux_applicability_c97c74b71b75b01068dd5464604bcb65</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-12 19:23:45</sys_updated_on>
+    </sys_ux_applicability>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Special Occasions">0a8c0c331bf1b01068dd5464604bcbb1</application>
+        <file_path/>
+        <instance_id>7d4a13ccdb572890e26fd7c8f4961916</instance_id>
+        <instance_name>dev109150</instance_name>
+        <name>sys_ux_applicability_c97c74b71b75b01068dd5464604bcb65</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability"><sys_ux_applicability action="INSERT_OR_UPDATE"><active>true</active><api_name>x_126321_spec_occ.Special Occasion User</api_name><description>Audience of Special Occasion application users</description><name>Special Occasion User</name><roles name="x_126321_spec_occ.user">301fc0f31bf1b01068dd5464604bcbee</roles><sys_class_name>sys_ux_applicability</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-08-12 19:23:45</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c97c74b71b75b01068dd5464604bcb65</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Special Occasion User</sys_name><sys_overrides/><sys_package display_value="Special Occasions" source="x_126321_spec_occ">0a8c0c331bf1b01068dd5464604bcbb1</sys_package><sys_policy/><sys_scope display_value="Special Occasions">0a8c0c331bf1b01068dd5464604bcbb1</sys_scope><sys_update_name>sys_ux_applicability_c97c74b71b75b01068dd5464604bcb65</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-08-12 19:23:45</sys_updated_on></sys_ux_applicability></record_update>]]></payload>
+        <payload_hash>50965646</payload_hash>
+        <record_name>Special Occasion User</record_name>
+        <reverted_from/>
+        <source>81c5903b1bf1b01068dd5464604bcb7c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-12 19:23:45</sys_created_on>
+        <sys_id>7d9c38f71b75b01068dd5464604bcb9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17b3bd2065d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-12 19:23:45</sys_updated_on>
+        <type>Audience</type>
+        <update_guid>7d9c74b7cf75b01032e0d69b7e3c853a</update_guid>
+        <update_guid_history>7d9c74b7cf75b01032e0d69b7e3c853a:50965646</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-12 19:24:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_applicability">sys_ux_applicability</sys_db_object>
+        <sys_id>23e2b677410a44ac8c36ba5ea05ba779</sys_id>
+        <sys_metadata>c97c74b71b75b01068dd5464604bcb65</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Special Occasion User</sys_name>
+        <sys_package display_value="Special Occasions" source="x_126321_spec_occ">0a8c0c331bf1b01068dd5464604bcbb1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Special Occasions">0a8c0c331bf1b01068dd5464604bcbb1</sys_scope>
+        <sys_scope_delete display_value="">b73069da1c2b4bad89ea19ec3429efe1</sys_scope_delete>
+        <sys_update_name>sys_ux_applicability_c97c74b71b75b01068dd5464604bcb65</sys_update_name>
+        <sys_update_version display_value="sys_ux_applicability_c97c74b71b75b01068dd5464604bcb65">7d9c38f71b75b01068dd5464604bcb9d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-12 19:24:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
