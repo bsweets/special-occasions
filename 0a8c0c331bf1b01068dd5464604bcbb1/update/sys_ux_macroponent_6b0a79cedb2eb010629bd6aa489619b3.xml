@@ -298,10 +298,9 @@
       "elementLabel" : "Stylized text 1",
       "propertyValues" : {
         "text" : {
-          "type" : "TRANSLATION_LITERAL",
-          "value" : {
-            "message" : "My Work Anniversary:      ",
-            "comment" : ""
+          "type" : "DATA_OUTPUT_BINDING",
+          "binding" : {
+            "address" : [ "add_user_to_title_1", "output" ]
           }
         },
         "tag" : {
@@ -395,6 +394,58 @@
   },
   "overrides" : {
     "composition" : [ {
+      "elementId" : "form__fields_1",
+      "elementLabel" : "Form - fields 1",
+      "propertyValues" : {
+        "table" : {
+          "type" : "JSON_LITERAL",
+          "value" : "x_126321_spec_occ_occasion"
+        },
+        "sysId" : {
+          "type" : "DATA_OUTPUT_BINDING",
+          "binding" : {
+            "address" : [ "my_work_anniversary", "results", "0", "sys_id", "value" ]
+          }
+        },
+        "view" : {
+          "type" : "JSON_LITERAL",
+          "value" : "ess"
+        },
+        "forcedViewName" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "query" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "readOnlyForm" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "inUiBuilder" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "workspaceConfigId" : {
+          "type" : "JSON_LITERAL",
+          "value" : "7b24ceae5304130084acddeeff7b12a3"
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "Main",
+      "definition" : {
+        "id" : "f4d3254a798ef092d9023d408f257789",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : { }
+    }, {
       "elementId" : "list__simple_1",
       "elementLabel" : "List - Simple 1",
       "propertyValues" : {
@@ -668,12 +719,33 @@
       "value" : "x_126321_spec_occ_occasion"
     },
     "encodedQuery" : {
-      "type" : "JSON_LITERAL",
-      "value" : null
+      "type" : "CLIENT_TRANSFORM",
+      "transform" : {
+        "operands" : {
+          "type" : "LIST_CONTAINER",
+          "container" : [ {
+            "type" : "JSON_LITERAL",
+            "value" : "special_occasion="
+          }, {
+            "type" : "JSON_LITERAL",
+            "value" : "work_anniversary"
+          }, {
+            "type" : "JSON_LITERAL",
+            "value" : "^employeeDYNAMIC"
+          }, {
+            "type" : "JSON_LITERAL",
+            "value" : "90d1921e5f510100a9ad2572f2b477fe"
+          }, {
+            "type" : "JSON_LITERAL",
+            "value" : ""
+          } ]
+        },
+        "operator" : "CONCAT"
+      }
     },
     "returnFields" : {
       "type" : "JSON_LITERAL",
-      "value" : "occasion_date"
+      "value" : "occasion_date,sys_id"
     },
     "orderBy" : {
       "type" : "JSON_LITERAL",
@@ -698,6 +770,88 @@
     "returnFieldMetadata" : {
       "type" : "JSON_LITERAL",
       "value" : false
+    }
+  },
+  "readEvaluationMode" : "EAGER"
+}, {
+  "definition" : {
+    "id" : "dc6e87a5232200100e4bc50947bf654b",
+    "type" : "CLIENT_STATE"
+  },
+  "elementId" : "glide_form_1",
+  "elementLabel" : "Glide Form 1",
+  "eventMappings" : [ ],
+  "inputValues" : {
+    "table" : {
+      "type" : "JSON_LITERAL",
+      "value" : "x_126321_spec_occ_occasion"
+    },
+    "sysId" : {
+      "type" : "DATA_OUTPUT_BINDING",
+      "binding" : {
+        "address" : [ "my_work_anniversary", "results", "0", "sys_id", "value" ]
+      }
+    },
+    "actionConfigId" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "headerConfigId" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "ribbonConfigId" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "viewRuleConfigId" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "highlightedValueConfigId" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "view" : {
+      "type" : "JSON_LITERAL",
+      "value" : "default view"
+    },
+    "forcedViewName" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "query" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "showActivityStreamInDetails" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "detailsContext" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "activityLogs" ],
+        "category" : "props"
+      }
+    }
+  },
+  "readEvaluationMode" : "EAGER"
+}, {
+  "definition" : {
+    "id" : "841b5e57db2ab410629bd6aa4896192f",
+    "type" : "TRANSFORM"
+  },
+  "elementId" : "add_user_to_title_1",
+  "elementLabel" : "Add User to Title 1",
+  "eventMappings" : [ ],
+  "inputValues" : {
+    "userDisplayName" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "user", "fullName" ],
+        "category" : "session"
+      }
     }
   },
   "readEvaluationMode" : "EAGER"
@@ -729,9 +883,6 @@
   "message" : "Birthdays this month",
   "comment" : ""
 }, {
-  "message" : "My Work Anniversary:      ",
-  "comment" : ""
-}, {
   "message" : "Special Occasions",
   "comment" : ""
 }, {
@@ -747,13 +898,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-09-13 20:09:59</sys_created_on>
         <sys_id>6b0a79cedb2eb010629bd6aa489619b3</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="Special Occasions" source="x_126321_spec_occ">0a8c0c331bf1b01068dd5464604bcbb1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Special Occasions">0a8c0c331bf1b01068dd5464604bcbb1</sys_scope>
         <sys_update_name>sys_ux_macroponent_6b0a79cedb2eb010629bd6aa489619b3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-09-16 22:18:53</sys_updated_on>
+        <sys_updated_on>2021-09-17 22:26:46</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
