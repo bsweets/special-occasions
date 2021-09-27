@@ -81,6 +81,92 @@
     "padding-left" : "10px"
   }
 }, {
+  "elementId" : "click_me_button",
+  "elementLabel" : "Click me button",
+  "propertyValues" : {
+    "variant" : {
+      "type" : "JSON_LITERAL",
+      "value" : "secondary"
+    },
+    "size" : {
+      "type" : "JSON_LITERAL",
+      "value" : "md"
+    },
+    "label" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "message" : "Click Me!",
+        "comment" : ""
+      }
+    },
+    "icon" : {
+      "type" : "JSON_LITERAL",
+      "value" : "check-circle-outline"
+    },
+    "disabled" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "tooltipContent" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "message" : "Enter a label",
+        "comment" : ""
+      }
+    },
+    "configAria" : {
+      "type" : "MAP_CONTAINER",
+      "container" : { }
+    }
+  },
+  "eventMappings" : [ {
+    "eventMappingId" : "cktyileataaaaaaxccaiijjvhddxwyfj",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "sn_button.NOW_BUTTON#CLICKED",
+    "sourceEventCorrelationId" : null,
+    "sourceEventDefinition" : {
+      "apiName" : "sn_button.NOW_BUTTON#CLICKED",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : null,
+      "declarativeAction" : null,
+      "event" : {
+        "apiName" : "x_126321_spec_occ.MODAL_SELECTED_RELAY_6b0a79cedb2eb010629bd6aa489619b3",
+        "payload" : {
+          "type" : "JSON_LITERAL",
+          "value" : {
+            "modalId" : "[component-id$='alert_1']",
+            "showModal" : true,
+            "displayOptions" : null,
+            "bare" : null,
+            "preserveState" : null
+          }
+        },
+        "sysId" : "9140f92ddbfe3c10629bd6aa4896199c"
+      },
+      "operation" : null,
+      "targetId" : "cktyktsziiaaaabbiiccaiijjffiiffquvaadd",
+      "type" : "EVENT"
+    } ]
+  } ],
+  "slot" : "Header",
+  "definition" : {
+    "id" : "d37ce8abca89d02905fed903c8e34d8e",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : { }
+}, {
   "elementId" : "scores_1",
   "elementLabel" : "Scores",
   "propertyValues" : { },
@@ -394,58 +480,6 @@
   },
   "overrides" : {
     "composition" : [ {
-      "elementId" : "form__fields_1",
-      "elementLabel" : "Form - fields 1",
-      "propertyValues" : {
-        "table" : {
-          "type" : "JSON_LITERAL",
-          "value" : "x_126321_spec_occ_occasion"
-        },
-        "sysId" : {
-          "type" : "DATA_OUTPUT_BINDING",
-          "binding" : {
-            "address" : [ "my_work_anniversary", "results", "0", "sys_id", "value" ]
-          }
-        },
-        "view" : {
-          "type" : "JSON_LITERAL",
-          "value" : "ess"
-        },
-        "forcedViewName" : {
-          "type" : "JSON_LITERAL",
-          "value" : ""
-        },
-        "query" : {
-          "type" : "JSON_LITERAL",
-          "value" : ""
-        },
-        "readOnlyForm" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "inUiBuilder" : {
-          "type" : "JSON_LITERAL",
-          "value" : true
-        },
-        "workspaceConfigId" : {
-          "type" : "JSON_LITERAL",
-          "value" : "7b24ceae5304130084acddeeff7b12a3"
-        }
-      },
-      "eventMappings" : [ ],
-      "slot" : "Main",
-      "definition" : {
-        "id" : "f4d3254a798ef092d9023d408f257789",
-        "type" : "MACROPONENT"
-      },
-      "overrides" : null,
-      "isHidden" : {
-        "type" : "JSON_LITERAL",
-        "value" : ""
-      },
-      "isNonDestructive" : false,
-      "styles" : { }
-    }, {
       "elementId" : "list__simple_1",
       "elementLabel" : "List - Simple 1",
       "propertyValues" : {
@@ -682,6 +716,58 @@
       },
       "isNonDestructive" : false,
       "styles" : { }
+    }, {
+      "elementId" : "form__fields_1",
+      "elementLabel" : "Form - fields 1",
+      "propertyValues" : {
+        "table" : {
+          "type" : "JSON_LITERAL",
+          "value" : "x_126321_spec_occ_occasion"
+        },
+        "sysId" : {
+          "type" : "DATA_OUTPUT_BINDING",
+          "binding" : {
+            "address" : [ "my_work_anniversary", "results", "0", "sys_id", "value" ]
+          }
+        },
+        "view" : {
+          "type" : "JSON_LITERAL",
+          "value" : "ess"
+        },
+        "forcedViewName" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "query" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "readOnlyForm" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "inUiBuilder" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "workspaceConfigId" : {
+          "type" : "JSON_LITERAL",
+          "value" : "7b24ceae5304130084acddeeff7b12a3"
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "Main",
+      "definition" : {
+        "id" : "f4d3254a798ef092d9023d408f257789",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : { }
     } ],
     "layout" : {
       "default" : {
@@ -703,6 +789,48 @@
   "styles" : {
     "width" : "100%"
   }
+}, {
+  "elementId" : "alert_1",
+  "elementLabel" : "Alert 1",
+  "propertyValues" : {
+    "headerLabel" : {
+      "type" : "JSON_LITERAL",
+      "value" : "Button clicked!"
+    },
+    "content" : {
+      "type" : "JSON_LITERAL",
+      "value" : "Thank you for clicking the button"
+    },
+    "buttonLabel" : {
+      "type" : "JSON_LITERAL",
+      "value" : "Got it"
+    },
+    "size" : {
+      "type" : "JSON_LITERAL",
+      "value" : "md"
+    },
+    "preventDefaultAction" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "defer" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "05d8b1515b230010b913cbd59b81c71a",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : { }
 } ]</composition>
         <da_relay_models/>
         <data>[ {
@@ -856,7 +984,7 @@
   },
   "readEvaluationMode" : "EAGER"
 } ]</data>
-        <dispatched_events/>
+        <dispatched_events>9140f92ddbfe3c10629bd6aa4896199c</dispatched_events>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <handled_events/>
         <interactions/>
@@ -883,6 +1011,12 @@
   "message" : "Birthdays this month",
   "comment" : ""
 }, {
+  "message" : "Click Me!",
+  "comment" : ""
+}, {
+  "message" : "Enter a label",
+  "comment" : ""
+}, {
   "message" : "Special Occasions",
   "comment" : ""
 }, {
@@ -898,13 +1032,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-09-13 20:09:59</sys_created_on>
         <sys_id>6b0a79cedb2eb010629bd6aa489619b3</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="Special Occasions" source="x_126321_spec_occ">0a8c0c331bf1b01068dd5464604bcbb1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Special Occasions">0a8c0c331bf1b01068dd5464604bcbb1</sys_scope>
         <sys_update_name>sys_ux_macroponent_6b0a79cedb2eb010629bd6aa489619b3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-09-17 22:26:46</sys_updated_on>
+        <sys_updated_on>2021-09-24 16:43:22</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
