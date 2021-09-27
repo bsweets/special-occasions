@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Occasion" max_length="40" name="x_126321_spec_occ_occasion" type="collection">
+    <element label="Occasion" max_length="40" name="x_126321_spec_occ_occasion" sizeclass="0" type="collection">
         <element attributes="encode_utf8=false" label="Employee" max_length="32" name="employee" reference="sys_user" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" label="Employee email" max_length="120" name="employee_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Employee email" max_length="130" name="employee_email" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Occasion date" max_length="40" name="occasion_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="birthday" label="Special occasion" max_length="40" name="special_occasion" type="choice">

@@ -29,7 +29,7 @@
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>120</max_length>
+        <max_length>130</max_length>
         <name>x_126321_spec_occ_occasion</name>
         <next_element/>
         <primary>false</primary>
@@ -47,8 +47,8 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-08-12 16:02:02</sys_created_on>
-        <sys_id>df6e88b31bf1b01068dd5464604bcb17</sys_id>
+        <sys_created_on>2021-09-24 21:41:21</sys_created_on>
+        <sys_id>c1787ee51b327010c811c991604bcb41</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Employee email</sys_name>
         <sys_package display_value="Special Occasions" source="x_126321_spec_occ">0a8c0c331bf1b01068dd5464604bcbb1</sys_package>
@@ -56,7 +56,7 @@
         <sys_scope display_value="Special Occasions">0a8c0c331bf1b01068dd5464604bcbb1</sys_scope>
         <sys_update_name>sys_dictionary_x_126321_spec_occ_occasion_employee_email</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-12 16:02:02</sys_updated_on>
+        <sys_updated_on>2021-09-27 14:38:37</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
