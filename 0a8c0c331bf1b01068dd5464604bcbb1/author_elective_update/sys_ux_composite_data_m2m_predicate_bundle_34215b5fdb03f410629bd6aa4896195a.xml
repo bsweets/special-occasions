@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_predicate_bundle">
+    <sys_ux_composite_data_m2m_predicate_bundle action="DELETE">
+        <dataset display_value="Special Occasions EVAM Def">df4228b5dbc3b010629bd6aa489619b2</dataset>
+        <order/>
+        <predicate_bundle/>
+        <sys_class_name>sys_ux_composite_data_m2m_predicate_bundle</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-12 20:14:16</sys_created_on>
+        <sys_id>34215b5fdb03f410629bd6aa4896195a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Special Occasions" source="x_126321_spec_occ">0a8c0c331bf1b01068dd5464604bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Special Occasions">0a8c0c331bf1b01068dd5464604bcbb1</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_predicate_bundle_34215b5fdb03f410629bd6aa4896195a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-12 20:14:16</sys_updated_on>
+    </sys_ux_composite_data_m2m_predicate_bundle>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Special Occasions">0a8c0c331bf1b01068dd5464604bcbb1</application>
+        <file_path/>
+        <instance_id>605696e06fe2b500ffcca9cc5d3ee441</instance_id>
+        <instance_name>dev10502</instance_name>
+        <name>sys_ux_composite_data_m2m_predicate_bundle_34215b5fdb03f410629bd6aa4896195a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_predicate_bundle"><sys_ux_composite_data_m2m_predicate_bundle action="INSERT_OR_UPDATE"><dataset display_value="Special Occasions EVAM Def">df4228b5dbc3b010629bd6aa489619b2</dataset><order/><predicate_bundle/><sys_class_name>sys_ux_composite_data_m2m_predicate_bundle</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-10-12 20:14:16</sys_created_on><sys_id>34215b5fdb03f410629bd6aa4896195a</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Special Occasions" source="x_126321_spec_occ">0a8c0c331bf1b01068dd5464604bcbb1</sys_package><sys_policy/><sys_scope display_value="Special Occasions">0a8c0c331bf1b01068dd5464604bcbb1</sys_scope><sys_update_name>sys_ux_composite_data_m2m_predicate_bundle_34215b5fdb03f410629bd6aa4896195a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-10-12 20:14:16</sys_updated_on></sys_ux_composite_data_m2m_predicate_bundle></record_update>]]></payload>
+        <payload_hash>-710235887</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>40044906dbaab010629bd6aa489619fb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-14 23:06:57</sys_created_on>
+        <sys_id>f1db064cdb137810629bd6aa48961918</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c810f05640000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-14 23:06:57</sys_updated_on>
+        <type>EVAM View Config Bundle M2M</type>
+        <update_guid>31db064c031378108ad2156e752d7418</update_guid>
+        <update_guid_history>31db064c031378108ad2156e752d7418:0,b4215b5f7b03f410d51a70616e0d3c5d:-941472700</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-14 23:07:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_composite_data_m2m_predicate_bundle">sys_ux_composite_data_m2m_predicate_bundle</sys_db_object>
+        <sys_id>8e8adcd603d840c8b97c1c4b3bca1024</sys_id>
+        <sys_metadata>34215b5fdb03f410629bd6aa4896195a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Special Occasions" source="x_126321_spec_occ">0a8c0c331bf1b01068dd5464604bcbb1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Special Occasions">0a8c0c331bf1b01068dd5464604bcbb1</sys_scope>
+        <sys_scope_delete display_value="">b73069da1c2b4bad89ea19ec3429efe1</sys_scope_delete>
+        <sys_update_name>sys_ux_composite_data_m2m_predicate_bundle_34215b5fdb03f410629bd6aa4896195a</sys_update_name>
+        <sys_update_version display_value="sys_ux_composite_data_m2m_predicate_bundle_34215b5fdb03f410629bd6aa4896195a">f1db064cdb137810629bd6aa48961918</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-14 23:07:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template_predicate_bundle">
+    <sys_ux_composite_data_template_predicate_bundle action="DELETE">
+        <active>true</active>
+        <name>SO EVAM View Config Bundle</name>
+        <sys_class_name>sys_ux_composite_data_template_predicate_bundle</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-12 20:14:18</sys_created_on>
+        <sys_id>d6eef613db03f410629bd6aa489619aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SO EVAM View Config Bundle</sys_name>
+        <sys_package display_value="Special Occasions" source="x_126321_spec_occ">0a8c0c331bf1b01068dd5464604bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Special Occasions">0a8c0c331bf1b01068dd5464604bcbb1</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_predicate_bundle_d6eef613db03f410629bd6aa489619aa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-12 20:14:18</sys_updated_on>
+    </sys_ux_composite_data_template_predicate_bundle>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Special Occasions">0a8c0c331bf1b01068dd5464604bcbb1</application>
+        <file_path/>
+        <instance_id>605696e06fe2b500ffcca9cc5d3ee441</instance_id>
+        <instance_name>dev10502</instance_name>
+        <name>sys_ux_composite_data_template_predicate_bundle_d6eef613db03f410629bd6aa489619aa</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template_predicate_bundle"><sys_ux_composite_data_template_predicate_bundle action="INSERT_OR_UPDATE"><active>true</active><name>SO EVAM View Config Bundle</name><sys_class_name>sys_ux_composite_data_template_predicate_bundle</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-10-12 20:14:18</sys_created_on><sys_id>d6eef613db03f410629bd6aa489619aa</sys_id><sys_mod_count>0</sys_mod_count><sys_name>SO EVAM View Config Bundle</sys_name><sys_package display_value="Special Occasions" source="x_126321_spec_occ">0a8c0c331bf1b01068dd5464604bcbb1</sys_package><sys_policy/><sys_scope display_value="Special Occasions">0a8c0c331bf1b01068dd5464604bcbb1</sys_scope><sys_update_name>sys_ux_composite_data_template_predicate_bundle_d6eef613db03f410629bd6aa489619aa</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-10-12 20:14:18</sys_updated_on></sys_ux_composite_data_template_predicate_bundle></record_update>]]></payload>
+        <payload_hash>570537021</payload_hash>
+        <record_name>SO EVAM View Config Bundle</record_name>
+        <reverted_from/>
+        <source>40044906dbaab010629bd6aa489619fb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-12 20:14:18</sys_created_on>
+        <sys_id>9921d75fdb03f410629bd6aa489619de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c76243cb50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-12 20:14:18</sys_updated_on>
+        <type>EVAM View Config Bundle</type>
+        <update_guid>d121d75f2603f410758884b4b446afde</update_guid>
+        <update_guid_history>d121d75f2603f410758884b4b446afde:570537021</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-14 23:06:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_composite_data_template_predicate_bundle">sys_ux_composite_data_template_predicate_bundle</sys_db_object>
+        <sys_id>6be0c50e99164f20bedd00cba3c1c890</sys_id>
+        <sys_metadata>d6eef613db03f410629bd6aa489619aa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SO EVAM View Config Bundle</sys_name>
+        <sys_package display_value="Special Occasions" source="x_126321_spec_occ">0a8c0c331bf1b01068dd5464604bcbb1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Special Occasions">0a8c0c331bf1b01068dd5464604bcbb1</sys_scope>
+        <sys_scope_delete display_value="">b73069da1c2b4bad89ea19ec3429efe1</sys_scope_delete>
+        <sys_update_name>sys_ux_composite_data_template_predicate_bundle_d6eef613db03f410629bd6aa489619aa</sys_update_name>
+        <sys_update_version display_value="sys_ux_composite_data_template_predicate_bundle_d6eef613db03f410629bd6aa489619aa">9921d75fdb03f410629bd6aa489619de</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-14 23:06:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
