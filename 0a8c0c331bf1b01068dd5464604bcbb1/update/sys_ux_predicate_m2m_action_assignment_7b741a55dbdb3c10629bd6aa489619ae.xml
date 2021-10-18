@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_predicate_m2m_action_assignment">
+    <sys_ux_predicate_m2m_action_assignment action="INSERT_OR_UPDATE">
+        <declarative_action_assignment display_value="occ_navigation">22b6d599db1b3c10629bd6aa4896193a</declarative_action_assignment>
+        <predicate display_value="Occasions View Config">a96192d0db1f7810629bd6aa489619ef</predicate>
+        <sys_class_name>sys_ux_predicate_m2m_action_assignment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-18 20:57:10</sys_created_on>
+        <sys_id>7b741a55dbdb3c10629bd6aa489619ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Special Occasions" source="x_126321_spec_occ">0a8c0c331bf1b01068dd5464604bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Special Occasions">0a8c0c331bf1b01068dd5464604bcbb1</sys_scope>
+        <sys_update_name>sys_ux_predicate_m2m_action_assignment_7b741a55dbdb3c10629bd6aa489619ae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-18 20:57:10</sys_updated_on>
+    </sys_ux_predicate_m2m_action_assignment>
+</record_update>
