@@ -598,38 +598,7 @@
   }
 } ]</composition>
         <da_relay_models/>
-        <data>[ {
-  "definition" : {
-    "id" : "e6af35d9dbb810106b3982c9689619e5",
-    "type" : "COMPOSITE"
-  },
-  "elementId" : "evam_data_resource_1",
-  "elementLabel" : "EVAM Data Resource 1",
-  "eventMappings" : [ ],
-  "inputValues" : {
-    "evamDefinitionId" : {
-      "type" : "JSON_LITERAL",
-      "value" : "df4228b5dbc3b010629bd6aa489619b2"
-    },
-    "pageCursor" : {
-      "type" : "JSON_LITERAL",
-      "value" : ""
-    },
-    "pageSize" : {
-      "type" : "JSON_LITERAL",
-      "value" : "8"
-    },
-    "pageNumber" : {
-      "type" : "JSON_LITERAL",
-      "value" : "0"
-    },
-    "filterPreference" : {
-      "type" : "JSON_LITERAL",
-      "value" : ""
-    }
-  },
-  "readEvaluationMode" : "EAGER"
-} ]</data>
+        <data>[ ]</data>
         <dispatched_events/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <handled_events/>
@@ -672,13 +641,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-09-13 19:13:50</sys_created_on>
         <sys_id>7c3d2546db2eb010629bd6aa489619cf</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="Special Occasions" source="x_126321_spec_occ">0a8c0c331bf1b01068dd5464604bcbb1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Special Occasions">0a8c0c331bf1b01068dd5464604bcbb1</sys_scope>
         <sys_update_name>sys_ux_macroponent_7c3d2546db2eb010629bd6aa489619cf</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-20 23:55:07</sys_updated_on>
+        <sys_updated_on>2021-10-21 00:24:21</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

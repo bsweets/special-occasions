@@ -394,6 +394,88 @@
   },
   "overrides" : {
     "composition" : [ {
+      "elementId" : "data_set_1",
+      "elementLabel" : "Data set 1",
+      "propertyValues" : {
+        "title" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "message" : "Special Occasions Records",
+            "comment" : ""
+          }
+        },
+        "titleHeadingLevel" : {
+          "type" : "JSON_LITERAL",
+          "value" : "1"
+        },
+        "titleStyleVariant" : {
+          "type" : "JSON_LITERAL",
+          "value" : "header-tertiary"
+        },
+        "data" : {
+          "type" : "DATA_OUTPUT_BINDING",
+          "binding" : {
+            "address" : [ "evam_data_resource_1", "compositeDataViews" ]
+          }
+        },
+        "toggleView" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "defaultView" : {
+          "type" : "JSON_LITERAL",
+          "value" : "grid"
+        },
+        "cardHeight" : {
+          "type" : "JSON_LITERAL",
+          "value" : "md"
+        },
+        "maxCardsPerRow" : {
+          "type" : "JSON_LITERAL",
+          "value" : "3"
+        },
+        "minCardWidth" : {
+          "type" : "JSON_LITERAL",
+          "value" : 150
+        },
+        "dataBrokerIsLoading" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "emptyMessage" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "message" : "No content to display",
+            "comment" : ""
+          }
+        },
+        "hideFilter" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "hidePaginationControls" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "daClientActionContract" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "Main",
+      "definition" : {
+        "id" : "dec0b89ec87f44e66126f8cc78e53891",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : { }
+    }, {
       "elementId" : "list__simple_1",
       "elementLabel" : "List - Simple 1",
       "propertyValues" : {
@@ -1266,13 +1348,111 @@
     }
   },
   "readEvaluationMode" : "EAGER"
+}, {
+  "definition" : {
+    "id" : "e6af35d9dbb810106b3982c9689619e5",
+    "type" : "COMPOSITE"
+  },
+  "elementId" : "evam_data_resource_1",
+  "elementLabel" : "EVAM Data Resource 1",
+  "eventMappings" : [ ],
+  "inputValues" : {
+    "evamDefinitionId" : {
+      "type" : "JSON_LITERAL",
+      "value" : "df4228b5dbc3b010629bd6aa489619b2"
+    },
+    "pageCursor" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "pageSize" : {
+      "type" : "JSON_LITERAL",
+      "value" : "8"
+    },
+    "pageNumber" : {
+      "type" : "JSON_LITERAL",
+      "value" : "0"
+    },
+    "filterPreference" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    }
+  },
+  "readEvaluationMode" : "EAGER"
 } ]</data>
-        <dispatched_events>9140f92ddbfe3c10629bd6aa4896199c</dispatched_events>
+        <dispatched_events>f0bfc6dedb5bfc10629bd6aa489619ee,9140f92ddbfe3c10629bd6aa4896199c</dispatched_events>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
-        <handled_events/>
+        <handled_events>dde20e5edbd7fc10629bd6aa489619a1</handled_events>
         <interactions/>
         <interfaces/>
-        <internal_event_mappings>{ }</internal_event_mappings>
+        <internal_event_mappings>{
+  "x_126321_spec_occ.OPEN_OCCASION_RECORD" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "x_126321_spec_occ.NAV_ITEM_SELECTED_RELAY_6b0a79cedb2eb010629bd6aa489619b3",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "route" : {
+            "type" : "JSON_LITERAL",
+            "value" : "record"
+          },
+          "fields" : {
+            "type" : "MAP_CONTAINER",
+            "container" : {
+              "table" : {
+                "type" : "EVENT_PAYLOAD_BINDING",
+                "binding" : {
+                  "address" : [ "table" ]
+                }
+              },
+              "sysId" : {
+                "type" : "EVENT_PAYLOAD_BINDING",
+                "binding" : {
+                  "address" : [ "sysId" ]
+                }
+              }
+            }
+          },
+          "params" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "redirect" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "passiveNavigation" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "title" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "multiInstField" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "targetRoute" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "external" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          }
+        }
+      },
+      "sysId" : "f0bfc6dedb5bfc10629bd6aa489619ee"
+    },
+    "operation" : null,
+    "targetId" : "ckvbbktwxxaaaaaapccaiijjzupviiqgga",
+    "type" : "EVENT"
+  } ]
+}</internal_event_mappings>
         <layout>{
   "default" : {
     "children" : null,
@@ -1297,7 +1477,13 @@
   "message" : "My Special Occasions",
   "comment" : ""
 }, {
+  "message" : "No content to display",
+  "comment" : ""
+}, {
   "message" : "Special Occasions",
+  "comment" : ""
+}, {
+  "message" : "Special Occasions Records",
   "comment" : ""
 }, {
   "message" : "Work anniversaries this month",
@@ -1312,13 +1498,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-09-13 20:09:59</sys_created_on>
         <sys_id>6b0a79cedb2eb010629bd6aa489619b3</sys_id>
-        <sys_mod_count>47</sys_mod_count>
+        <sys_mod_count>61</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="Special Occasions" source="x_126321_spec_occ">0a8c0c331bf1b01068dd5464604bcbb1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Special Occasions">0a8c0c331bf1b01068dd5464604bcbb1</sys_scope>
         <sys_update_name>sys_ux_macroponent_6b0a79cedb2eb010629bd6aa489619b3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-19 16:38:48</sys_updated_on>
+        <sys_updated_on>2021-10-21 23:36:34</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
