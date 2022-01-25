@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="DELETE">
+        <active>true</active>
+        <app_config display_value="Special Occasions config">5dd758bb1bf1b01068dd5464604bcb0f</app_config>
+        <description/>
+        <event_mappings>[ ]</event_mappings>
+        <macroponent display_value="Home">054417341b594910a047ca641a4bcb54</macroponent>
+        <macroponent_config>{
+  "label" : {
+    "type" : "TRANSLATION_LITERAL",
+    "value" : {
+      "code" : null,
+      "message" : "",
+      "comment" : ""
+    }
+  },
+  "bare" : {
+    "type" : "JSON_LITERAL",
+    "value" : true
+  },
+  "scrollable" : {
+    "type" : "JSON_LITERAL",
+    "value" : "y"
+  },
+  "headerLevel" : {
+    "type" : "JSON_LITERAL",
+    "value" : "1"
+  },
+  "headingOnlyVisibleToScreenReaders" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "interceptNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "propagateNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  }
+}</macroponent_config>
+        <name>Home default - 3.0.0 preview.</name>
+        <order>9999</order>
+        <parent_macroponent display_value="UXR Blank AppShell(To be deprecated)">fee17a0f5b130010b913cbd59b81c7c2</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen display_value="Home default">bb8a1c3f1bf1b01068dd5464604bcb35</rollback_screen>
+        <screen_condition/>
+        <screen_type display_value="Home">7f8ad4bb1bf1b01068dd5464604bcbee</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-24 22:24:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>994417341b594910a047ca641a4bcb57</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Home default - 3.0.0 preview.</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Special Occasions" source="x_126321_spec_occ">0a8c0c331bf1b01068dd5464604bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Special Occasions">0a8c0c331bf1b01068dd5464604bcbb1</sys_scope>
+        <sys_update_name>sys_ux_screen_994417341b594910a047ca641a4bcb57</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-24 22:24:28</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="DELETE" query="documentkey=994417341b594910a047ca641a4bcb57"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Special Occasions">0a8c0c331bf1b01068dd5464604bcbb1</application>
+        <file_path/>
+        <instance_id>ed8d2d802bbdbc04ecf7bb4f59da15ad</instance_id>
+        <instance_name>empbsweets</instance_name>
+        <name>sys_ux_screen_994417341b594910a047ca641a4bcb57</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen"><sys_ux_screen action="INSERT_OR_UPDATE"><active>true</active><app_config display_value="Special Occasions config">5dd758bb1bf1b01068dd5464604bcb0f</app_config><description/><event_mappings>[ ]</event_mappings><macroponent display_value="Home">054417341b594910a047ca641a4bcb54</macroponent><macroponent_config>{
+  "label" : {
+    "type" : "TRANSLATION_LITERAL",
+    "value" : {
+      "code" : null,
+      "message" : "",
+      "comment" : ""
+    }
+  },
+  "bare" : {
+    "type" : "JSON_LITERAL",
+    "value" : true
+  },
+  "scrollable" : {
+    "type" : "JSON_LITERAL",
+    "value" : "y"
+  },
+  "headerLevel" : {
+    "type" : "JSON_LITERAL",
+    "value" : "1"
+  },
+  "headingOnlyVisibleToScreenReaders" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "interceptNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "propagateNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  }
+}</macroponent_config><name>Home default - 3.0.0 preview.</name><order>9999</order><parent_macroponent display_value="UXR Blank AppShell(To be deprecated)">fee17a0f5b130010b913cbd59b81c7c2</parent_macroponent><required_translations>[ ]</required_translations><rollback_screen display_value="Home default">bb8a1c3f1bf1b01068dd5464604bcb35</rollback_screen><screen_condition/><screen_type display_value="Home">7f8ad4bb1bf1b01068dd5464604bcbee</screen_type><sys_class_name>sys_ux_screen</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-24 22:24:25</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>994417341b594910a047ca641a4bcb57</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Home default - 3.0.0 preview.</sys_name><sys_overrides/><sys_package display_value="Special Occasions" source="x_126321_spec_occ">0a8c0c331bf1b01068dd5464604bcbb1</sys_package><sys_policy/><sys_scope display_value="Special Occasions">0a8c0c331bf1b01068dd5464604bcbb1</sys_scope><sys_update_name>sys_ux_screen_994417341b594910a047ca641a4bcb57</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-24 22:24:28</sys_updated_on></sys_ux_screen><sys_translated_text action="delete_multiple" query="documentkey=994417341b594910a047ca641a4bcb57"/></record_update>]]></payload>
+        <payload_hash>-1885395807</payload_hash>
+        <record_name>Home default - 3.0.0 preview.</record_name>
+        <reverted_from/>
+        <source>e0821f701b594910a047ca641a4bcbf0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-24 22:24:28</sys_created_on>
+        <sys_id>864417341b594910a047ca641a4bcb7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e8e30c6740000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-24 22:24:28</sys_updated_on>
+        <type>UX Screen</type>
+        <update_guid>ce441734175949101ea484508b0d697a</update_guid>
+        <update_guid_history>ce441734175949101ea484508b0d697a:-1885395807,1144173443594910e9a96b3a0c41085b:-2144896903</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-24 22:24:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen">sys_ux_screen</sys_db_object>
+        <sys_id>1955529bd7934c80bafff5fcf70cce40</sys_id>
+        <sys_metadata>994417341b594910a047ca641a4bcb57</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Home default - 3.0.0 preview.</sys_name>
+        <sys_package display_value="Special Occasions" source="x_126321_spec_occ">0a8c0c331bf1b01068dd5464604bcbb1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Special Occasions">0a8c0c331bf1b01068dd5464604bcbb1</sys_scope>
+        <sys_scope_delete display_value="">b73069da1c2b4bad89ea19ec3429efe1</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_994417341b594910a047ca641a4bcb57</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_994417341b594910a047ca641a4bcb57">864417341b594910a047ca641a4bcb7b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-24 22:24:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
