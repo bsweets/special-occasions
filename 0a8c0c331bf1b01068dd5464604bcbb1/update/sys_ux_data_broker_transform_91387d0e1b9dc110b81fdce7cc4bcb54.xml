@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
+        <acl_failure_result/>
+        <api_name>x_126321_spec_occ.Add User to Title</api_name>
+        <description>This Transform Data Resource constructs a string using the format &lt;user_name&gt;'s Work Anniversary:</description>
+        <mutates_server_data>false</mutates_server_data>
+        <name>Add User to Title</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[&#13;
+  {&#13;
+    "name":"userDisplayName",&#13;
+    "label":"User display name",&#13;
+    "description":"",&#13;
+    "readOnly":"false",&#13;
+    "fieldType":"string",&#13;
+    "mandatory":true,&#13;
+    "defaultValue":""&#13;
+  }&#13;
+]&#13;
+</props>
+        <required_translations>[ {
+  "message" : "User display name",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform(input) {
+	
+	// Concatenate the user name from the Data Resource Configuration
+	// with a string
+	var newTitle = input.userDisplayName + "'s Work Anniversary:";
+	return newTitle;
+	
+}
+
+]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-28 13:01:54</sys_created_on>
+        <sys_id>91387d0e1b9dc110b81fdce7cc4bcb54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Add User to Title</sys_name>
+        <sys_package display_value="Special Occasions" source="x_126321_spec_occ">0a8c0c331bf1b01068dd5464604bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Special Occasions">0a8c0c331bf1b01068dd5464604bcbb1</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_91387d0e1b9dc110b81fdce7cc4bcb54</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-28 13:01:54</sys_updated_on>
+    </sys_ux_data_broker_transform>
+    <sys_translated_text action="delete_multiple" query="documentkey=91387d0e1b9dc110b81fdce7cc4bcb54"/>
+</record_update>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>UPDATE_OCCASION_LIST</event_name>
+        <interfaces/>
+        <label>Update Occasion List</label>
+        <props>[{"name":"newQuery","fieldType":"","label":"New List Query","interfaceApiName":"","typeMetadata":null,"mandatory":false,"readOnly":false},{"name":"newTitle","fieldType":"","label":"New List Title","interfaceApiName":"","typeMetadata":null,"mandatory":false,"readOnly":false}]</props>
+        <required_translations>[ {
+  "message" : "New List Query",
+  "comment" : ""
+}, {
+  "message" : "New List Title",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-25 19:55:54</sys_created_on>
+        <sys_id>efdbff411b198910a047ca641a4bcb86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update Occasion List</sys_name>
+        <sys_package display_value="Special Occasions" source="x_126321_spec_occ">0a8c0c331bf1b01068dd5464604bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Special Occasions">0a8c0c331bf1b01068dd5464604bcbb1</sys_scope>
+        <sys_update_name>sys_ux_event_efdbff411b198910a047ca641a4bcb86</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-25 19:55:54</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=efdbff411b198910a047ca641a4bcb86"/>
+</record_update>

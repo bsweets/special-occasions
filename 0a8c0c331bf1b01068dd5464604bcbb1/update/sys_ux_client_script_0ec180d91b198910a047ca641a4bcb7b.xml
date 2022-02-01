@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Home">1fb2e68d1bd18910a047ca641a4bcbc6</macroponent>
+        <name>Filter occasions</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({api, event, helpers, imports}) {
+
+    // Get the occasion type from the Radio buttons component
+    var occType = event.payload.value;
+
+    // If all is selected, set the occasionTypeQuery value to blank
+    if ( occType == 'all'){
+        api.setState('occasionTypeQuery', '');
+    }
+
+    // Otherwise set occTypeQuery to a value that uses the selected value
+    else {
+        api.setState('occasionTypeQuery', 'special_occasion=' + occType);
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-25 20:21:45</sys_created_on>
+        <sys_id>0ec180d91b198910a047ca641a4bcb7b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Filter occasions</sys_name>
+        <sys_package display_value="Special Occasions" source="x_126321_spec_occ">0a8c0c331bf1b01068dd5464604bcbb1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Special Occasions">0a8c0c331bf1b01068dd5464604bcbb1</sys_scope>
+        <sys_update_name>sys_ux_client_script_0ec180d91b198910a047ca641a4bcb7b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-25 21:07:33</sys_updated_on>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>
